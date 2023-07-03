@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+        <array key="Roboto-Thin.ttf">
+            <string>Roboto-Thin</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" reuseIdentifier="GameTableViewCell" rowHeight="95" id="KGk-i7-Jjw" customClass="GameTableViewCell" customModule="PickupProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="383" height="95"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="383" height="95"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJr-3j-mfC">
+                        <rect key="frame" x="58" y="17" width="246" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="246" id="SeC-SP-osG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00/00/00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFR-ye-Eyo">
+                        <rect key="frame" x="300" y="48" width="63" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="7vT-uv-ihM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9w-YJ-wuy">
+                        <rect key="frame" x="58" y="53" width="209" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="5f0-Cm-N1G"/>
+                            <constraint firstAttribute="width" constant="209" id="IbA-Lp-03R"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Thin" family="Roboto" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="basketballAnnotation" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DKt-iu-Puh">
+                        <rect key="frame" x="20" y="19" width="30" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="DKt-iu-Puh" secondAttribute="height" multiplier="30:29" id="83B-je-3Iz"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="R6M-r1-zKp"/>
+                            <constraint firstAttribute="height" constant="29" id="U3A-Z3-CSG"/>
+                            <constraint firstAttribute="width" constant="30" id="gmU-P6-w2A"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" id="wHc-ge-Bra"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YsZ-zM-Azd">
+                        <rect key="frame" x="58" y="44" width="209" height="1"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="eHV-oj-5gD"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hMc-zM-Gg2">
+                        <rect key="frame" x="314" y="30" width="39" height="18"/>
+                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="IJr-3j-mfC" firstAttribute="leading" secondItem="DKt-iu-Puh" secondAttribute="trailing" constant="8" symbolic="YES" id="0cG-jR-9Nu"/>
+                    <constraint firstItem="IJr-3j-mfC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="1Wc-1f-ed8"/>
+                    <constraint firstItem="e9w-YJ-wuy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="38" id="76v-UI-d05"/>
+                    <constraint firstItem="YsZ-zM-Azd" firstAttribute="top" secondItem="IJr-3j-mfC" secondAttribute="bottom" constant="4" id="9KE-US-v8A"/>
+                    <constraint firstItem="e9w-YJ-wuy" firstAttribute="top" secondItem="YsZ-zM-Azd" secondAttribute="bottom" constant="8" symbolic="YES" id="Blq-D9-lgW"/>
+                    <constraint firstItem="DKt-iu-Puh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="H7h-Mc-7wV"/>
+                    <constraint firstItem="XFR-ye-Eyo" firstAttribute="leading" secondItem="e9w-YJ-wuy" secondAttribute="trailing" constant="33" id="IXy-dN-KNY"/>
+                    <constraint firstItem="hMc-zM-Gg2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="PT8-4v-O93"/>
+                    <constraint firstItem="YsZ-zM-Azd" firstAttribute="leading" secondItem="DKt-iu-Puh" secondAttribute="trailing" constant="8" symbolic="YES" id="QGF-I5-o1r"/>
+                    <constraint firstItem="YsZ-zM-Azd" firstAttribute="leading" secondItem="e9w-YJ-wuy" secondAttribute="leading" id="VV7-IT-NJB"/>
+                    <constraint firstItem="YsZ-zM-Azd" firstAttribute="trailing" secondItem="e9w-YJ-wuy" secondAttribute="trailing" id="bWB-Ue-TFg"/>
+                    <constraint firstAttribute="bottom" secondItem="XFR-ye-Eyo" secondAttribute="bottom" constant="29" id="eCQ-5P-UeC"/>
+                    <constraint firstAttribute="trailing" secondItem="hMc-zM-Gg2" secondAttribute="trailing" constant="30" id="kif-XR-TFI"/>
+                    <constraint firstItem="IJr-3j-mfC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="mcg-e5-OZa"/>
+                    <constraint firstItem="YsZ-zM-Azd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="44" id="qrf-EP-cyI"/>
+                    <constraint firstItem="DKt-iu-Puh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="19" id="wWK-Rf-K8C"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateOfGame" destination="XFR-ye-Eyo" id="SCg-Mo-Qy4"/>
+                <outlet property="distance" destination="e9w-YJ-wuy" id="9gc-fr-R4V"/>
+                <outlet property="locationOfGame" destination="IJr-3j-mfC" id="IS1-Mu-T75"/>
+                <outlet property="sportOfGame" destination="DKt-iu-Puh" id="zxC-ns-Ff2"/>
+                <outlet property="timeOfGame" destination="hMc-zM-Gg2" id="WNf-xn-C7R"/>
+            </connections>
+            <point key="canvasLocation" x="438.40579710144931" y="89.397321428571431"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="basketballAnnotation" width="806" height="840"/>
+    </resources>
+</document>

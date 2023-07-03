@@ -1,0 +1,171 @@
+
+/* Class = "UILabel"; text = "Last Name"; ObjectID = "26N-09-vFA"; */
+"26N-09-vFA.text" = "Last Name";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "2mL-Ln-wH6"; */
+"2mL-Ln-wH6.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "Username:"; ObjectID = "4Y4-zj-zrm"; */
+"4Y4-zj-zrm.text" = "Username:";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "5BL-sx-rjn"; */
+"5BL-sx-rjn.normalTitle" = "Login";
+
+/* Class = "UITabBarItem"; title = "Games"; ObjectID = "5Zj-9r-uX4"; */
+"5Zj-9r-uX4.title" = "Games";
+
+/* Class = "UIButton"; normalTitle = "FIND FIELD"; ObjectID = "5pJ-hp-NuB"; */
+"5pJ-hp-NuB.normalTitle" = "FIND FIELD";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "6DH-GG-cY5"; */
+"6DH-GG-cY5.normalTitle" = "Sign Up";
+
+/* Class = "UITextField"; placeholder = "Location"; ObjectID = "80Q-kc-DJX"; */
+"80Q-kc-DJX.placeholder" = "Location";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "937-is-CjB"; */
+"937-is-CjB.placeholder" = "Email";
+
+/* Class = "UINavigationItem"; title = "PROFILE"; ObjectID = "9UK-dc-8w6"; */
+"9UK-dc-8w6.title" = "PROFILE";
+
+/* Class = "UILabel"; text = "Birth Date"; ObjectID = "Ar8-yW-5fb"; */
+"Ar8-yW-5fb.text" = "Birth Date";
+
+/* Class = "UILabel"; text = "Date:"; ObjectID = "ED2-hH-y7f"; */
+"ED2-hH-y7f.text" = "Date:";
+
+/* Class = "UIBarButtonItem"; title = "View All"; ObjectID = "FNg-ry-771"; */
+"FNg-ry-771.title" = "View All";
+
+/* Class = "UITextField"; placeholder = "ken@pickup.com"; ObjectID = "IKb-qj-CV7"; */
+"IKb-qj-CV7.placeholder" = "ken@pickup.com";
+
+/* Class = "UITextField"; placeholder = "Name Of Game"; ObjectID = "KhX-fq-6Qp"; */
+"KhX-fq-6Qp.placeholder" = "Name Of Game";
+
+/* Class = "UIButton"; normalTitle = "Create"; ObjectID = "Ki7-wU-9l4"; */
+"Ki7-wU-9l4.normalTitle" = "Create";
+
+/* Class = "UITabBarItem"; title = "PICK UP"; ObjectID = "L2q-na-wbY"; */
+"L2q-na-wbY.title" = "PICK UP";
+
+/* Class = "UINavigationItem"; title = "Login"; ObjectID = "Mfb-tG-TcR"; */
+"Mfb-tG-TcR.title" = "Login";
+
+/* Class = "UINavigationItem"; title = "Sign Up"; ObjectID = "MsZ-9k-y7Q"; */
+"MsZ-9k-y7Q.title" = "Sign Up";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "MvT-HN-tQG"; */
+"MvT-HN-tQG.text" = "Title";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "NFT-jY-MEy"; */
+"NFT-jY-MEy.text" = "name";
+
+/* Class = "UIBarButtonItem"; title = "Players"; ObjectID = "QQ8-FF-c0Y"; */
+"QQ8-FF-c0Y.title" = "Players";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "RuE-ck-4pN"; */
+"RuE-ck-4pN.normalTitle" = "Sign Up";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "ShO-Rl-1qb"; */
+"ShO-Rl-1qb.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "Td4-Y2-5KM"; */
+"Td4-Y2-5KM.text" = "Date";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "U0i-tE-JPx"; */
+"U0i-tE-JPx.title" = "Profile";
+
+/* Class = "UISegmentedControl"; XkO-b6-HXb.segmentTitles[0] = "Games"; ObjectID = "XkO-b6-HXb"; */
+"XkO-b6-HXb.segmentTitles[0]" = "Games";
+
+/* Class = "UISegmentedControl"; XkO-b6-HXb.segmentTitles[1] = "Your Games"; ObjectID = "XkO-b6-HXb"; */
+"XkO-b6-HXb.segmentTitles[1]" = "Your Games";
+
+/* Class = "UINavigationItem"; title = "Create PickUp"; ObjectID = "Yac-pH-MwW"; */
+"Yac-pH-MwW.title" = "Create PickUp";
+
+/* Class = "UITextField"; placeholder = "Phone #"; ObjectID = "Zm4-1V-qxA"; */
+"Zm4-1V-qxA.placeholder" = "Phone #";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "ZsL-pp-iqr"; */
+"ZsL-pp-iqr.text" = "Email";
+
+/* Class = "UIButton"; normalTitle = "PICKUP"; ObjectID = "atd-8m-EGg"; */
+"atd-8m-EGg.normalTitle" = "PICKUP";
+
+/* Class = "UIButton"; normalTitle = "Join Game"; ObjectID = "ciq-bQ-cSN"; */
+"ciq-bQ-cSN.normalTitle" = "Join Game";
+
+/* Class = "UIButton"; normalTitle = "LOGIN"; ObjectID = "d8Z-IQ-BlW"; */
+"d8Z-IQ-BlW.normalTitle" = "LOGIN";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "e0N-ht-nYY"; */
+"e0N-ht-nYY.text" = "Time";
+
+/* Class = "UILabel"; text = "Password:"; ObjectID = "f75-gl-1VD"; */
+"f75-gl-1VD.text" = "Password:";
+
+/* Class = "UITextView"; text = "BIO"; ObjectID = "gBV-ku-vKw"; */
+"gBV-ku-vKw.text" = "BIO";
+
+/* Class = "UILabel"; text = "Error"; ObjectID = "gG5-8c-Aec"; */
+"gG5-8c-Aec.text" = "Error";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "gNJ-J4-SHV"; */
+"gNJ-J4-SHV.text" = "title";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "i4j-Sa-PoO"; */
+"i4j-Sa-PoO.placeholder" = "Last Name";
+
+/* Class = "UITextView"; text = "Location"; ObjectID = "jzK-NC-BXf"; */
+"jzK-NC-BXf.text" = "Location";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "kQc-L1-tOh"; */
+"kQc-L1-tOh.text" = "Subtitle";
+
+/* Class = "UIButton"; normalTitle = "SignOut"; ObjectID = "ka8-bt-Blr"; */
+"ka8-bt-Blr.normalTitle" = "SignOut";
+
+/* Class = "UILabel"; text = "ERROR"; ObjectID = "kay-tV-CHE"; */
+"kay-tV-CHE.text" = "ERROR";
+
+/* Class = "UILabel"; text = "age"; ObjectID = "kgM-Sp-Cg1"; */
+"kgM-Sp-Cg1.text" = "age";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "n4i-Fb-3X3"; */
+"n4i-Fb-3X3.text" = "Password";
+
+/* Class = "UISegmentedControl"; pCn-al-Dpd.segmentTitles[0] = "⚽️"; ObjectID = "pCn-al-Dpd"; */
+"pCn-al-Dpd.segmentTitles[0]" = "⚽️";
+
+/* Class = "UISegmentedControl"; pCn-al-Dpd.segmentTitles[1] = "🏀"; ObjectID = "pCn-al-Dpd"; */
+"pCn-al-Dpd.segmentTitles[1]" = "🏀";
+
+/* Class = "UISegmentedControl"; pCn-al-Dpd.segmentTitles[2] = "🏈"; ObjectID = "pCn-al-Dpd"; */
+"pCn-al-Dpd.segmentTitles[2]" = "🏈";
+
+/* Class = "UITextView"; text = "Location"; ObjectID = "pGd-Xz-q62"; */
+"pGd-Xz-q62.text" = "Location";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "pxh-Cd-hHR"; */
+"pxh-Cd-hHR.placeholder" = "password";
+
+/* Class = "UILabel"; text = "First Name"; ObjectID = "tSg-tY-UAp"; */
+"tSg-tY-UAp.text" = "First Name";
+
+/* Class = "UILabel"; text = "Error"; ObjectID = "u6b-yD-jfi"; */
+"u6b-yD-jfi.text" = "Error";
+
+/* Class = "UIBarButtonItem"; title = "Create Game"; ObjectID = "xi1-gY-t6l"; */
+"xi1-gY-t6l.title" = "Create Game";
+
+/* Class = "UIButton"; normalTitle = "Create Game"; ObjectID = "z2O-Cj-bge"; */
+"z2O-Cj-bge.normalTitle" = "Create Game";
+
+/* Class = "UINavigationItem"; title = "Find Games"; ObjectID = "zFb-Bj-qh7"; */
+"zFb-Bj-qh7.title" = "Find Games";
+
+/* Class = "UITextField"; placeholder = "Description"; ObjectID = "zZb-pD-x7W"; */
+"zZb-pD-x7W.placeholder" = "Description";

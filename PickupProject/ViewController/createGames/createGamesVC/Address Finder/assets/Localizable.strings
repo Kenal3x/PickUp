@@ -1,0 +1,19 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+Localized strings.
+*/
+
+"LOCATION_SERVICES_ALERT_TITLE" = "Location Services";
+"LOCATION_SERVICES_DISABLED" = "Location services are not enabled on this device. Please enable location services in Settings.";
+"LOCATION_SERVICES_DENIED" = "Location services were previously denied by the user. Please enable location services for this app in Settings.";
+
+"SEARCH_RESULTS" = "Search Results";
+"SEARCH_RESULTS_LOCATION" = "Search Results Near %@";
+
+"BUTTON_OK" = "OK";
+"BUTTON_CANCEL" = "Cancel";
+"BUTTON_SETTINGS" = "Settings";
+
+"TITLE_ALL_PLACES" = "All Places";

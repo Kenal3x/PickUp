@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-Bold.ttf">
+            <string>Nunito-Bold</string>
+        </array>
+        <array key="Nunito-Regular.ttf">
+            <string>Nunito-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="noUCG" id="8vj-jL-5sF" customClass="noUCG" customModule="JustSmallTHings" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="223" height="264"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="223" height="264"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="izb-cs-qc8">
+                        <rect key="frame" x="0.0" y="137" width="223" height="127"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iFI-fe-cbu">
+                                <rect key="frame" x="0.0" y="-7" width="223" height="134"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Upcoming Games" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nvx-5G-M3U">
+                                        <rect key="frame" x="22" y="8" width="179" height="25"/>
+                                        <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Look through the near by games" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HgI-IJ-Gqz">
+                                        <rect key="frame" x="22" y="30.5" width="146" height="14"/>
+                                        <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="10"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Nvx-5G-M3U" secondAttribute="trailing" constant="22" id="fij-Ye-cox"/>
+                                    <constraint firstItem="HgI-IJ-Gqz" firstAttribute="top" secondItem="Nvx-5G-M3U" secondAttribute="bottom" constant="-2.5" id="jh6-Mr-yef"/>
+                                    <constraint firstItem="HgI-IJ-Gqz" firstAttribute="leading" secondItem="iFI-fe-cbu" secondAttribute="leading" constant="22" id="tiJ-L3-8jY"/>
+                                    <constraint firstItem="Nvx-5G-M3U" firstAttribute="leading" secondItem="iFI-fe-cbu" secondAttribute="leading" constant="22" id="tri-fF-Mlp"/>
+                                    <constraint firstItem="Nvx-5G-M3U" firstAttribute="top" secondItem="iFI-fe-cbu" secondAttribute="top" constant="8" id="yOj-N7-Lp6"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="iFI-fe-cbu" secondAttribute="bottom" id="E95-s6-XYR"/>
+                            <constraint firstItem="iFI-fe-cbu" firstAttribute="leading" secondItem="izb-cs-qc8" secondAttribute="leading" id="IFd-Rl-vv3"/>
+                            <constraint firstItem="iFI-fe-cbu" firstAttribute="top" secondItem="izb-cs-qc8" secondAttribute="top" constant="-7" id="V39-X7-ah9"/>
+                            <constraint firstAttribute="trailing" secondItem="iFI-fe-cbu" secondAttribute="trailing" id="f1f-aa-quX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="Eq4-6G-JHL"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="iFI-fe-cbu" firstAttribute="width" secondItem="8vj-jL-5sF" secondAttribute="width" id="9Ko-hZ-byp"/>
+                <constraint firstAttribute="bottom" secondItem="izb-cs-qc8" secondAttribute="bottom" id="AuY-QG-NUH"/>
+                <constraint firstAttribute="trailing" secondItem="izb-cs-qc8" secondAttribute="trailing" id="Gfo-8s-XBe"/>
+                <constraint firstItem="izb-cs-qc8" firstAttribute="top" secondItem="8vj-jL-5sF" secondAttribute="top" constant="137" id="WD9-9D-GFY"/>
+                <constraint firstItem="izb-cs-qc8" firstAttribute="leading" secondItem="8vj-jL-5sF" secondAttribute="leading" id="yFw-be-g9T"/>
+            </constraints>
+            <size key="customSize" width="223" height="264"/>
+            <connections>
+                <outlet property="mainView" destination="izb-cs-qc8" id="0we-cX-Zsi"/>
+            </connections>
+            <point key="canvasLocation" x="89" y="67"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
